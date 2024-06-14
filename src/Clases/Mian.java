@@ -16,9 +16,9 @@ public class Mian {
         t1.setNumeroTicket(123);
         t1.setAsiento(2);
         t1.setMaleta("MANO");
-        t1.setAdiccional("NO");
+        t1.setAdiccional("SI");
         t1.setPrecio(20);
-        t1.setPrecioMaleta(0);
+        t1.setPrecioMaleta(5);
         i1.info();
         t1.calcularCosto();
         t1.mostrarInformacion();
